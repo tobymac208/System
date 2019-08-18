@@ -1,5 +1,9 @@
 package com.projects.codepractitioner;
 
+import com.projects.codepractitioner.POJOs.Database.DatabaseConnection;
+
+import javax.xml.crypto.Data;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -12,5 +16,8 @@ public class Main {
                 "Author: Nik\n" +
                 "\n" +
                 "Date created: 07/01/2019");
+
+        DatabaseConnection databaseConnection = new DatabaseConnection();
+        databaseConnection.writeToDatabase();
     }
 }
