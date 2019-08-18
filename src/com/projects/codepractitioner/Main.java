@@ -17,6 +17,7 @@ public class Main {
                 "\n" +
                 "Date created: 07/01/2019");
 
+        // TODO: DELETE DEBUG CODE WHEN FINISHED
         DatabaseConnection databaseConnection = new DatabaseConnection();
         databaseConnection.writeToDatabase();
     }
