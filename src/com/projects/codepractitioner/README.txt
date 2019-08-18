@@ -13,8 +13,10 @@ Modifications:
 2. 08/17/2019:
     - Added equals() to LoginAccount
     - Added test for equals() from LoginAccount
+    - Added compareTo() to LoginAccount
+    - Added test for compareTo() from LoginAccount
 
 Classes to build (NOTE: Any classes with an 'X' are completed):
     1. Database interfacing module -- talks to the database                                     [ ]
-    2. Account module              -- establishes login credentials                             [X]
+    2. Account module              -- establishes login credentials                             [ ]
     3. Scheduling module           -- handles functionality for creating and removing schedules [ ]
